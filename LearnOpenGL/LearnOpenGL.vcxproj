@@ -21,13 +21,19 @@
   <ItemGroup>
     <ClCompile Include="source\glad.c" />
     <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\Shader.h" />
+    <ClInclude Include="headers\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\shaders\shader.fs" />
     <None Include="resources\shaders\shader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\awesomeface.png" />
+    <Image Include="resources\textures\container.jpg" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
